@@ -29,7 +29,7 @@ pip install base-to-base-number
 Here is a quick example of how to use `BaseNumber` to parse and convert numbers across different bases:
 
 ```python
-from base_to_base_number import BaseNumber
+from base_to_base_number.main import BaseNumber
 
 # Initialize a number in base 16 (Hexadecimal)
 # You can pass a string representation including signs (+/-) and fractions
