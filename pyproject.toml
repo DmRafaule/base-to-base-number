@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+[project]
+name = "base_to_base_number"
+version = "0.0.1"
+authors = [
+  { name="Tima Chuduk", email="tima-chuduk@timthewebmaster.com" },
+]
+description = "A package for converting numbers from one base to another. It supports bases from 2 to 36, as well as positive and negative numbers, including both integers and fractions."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+license = "MIT"
+license-files = ["LICENSE"]
+
+[project.urls]
+UsageExample = "https://timthewebmaster.com/en/tools/number-converter/"
+Homepage = "https://timthewebmaster.com/en/tools/pypi-package/base-to-base-number/"
+Source = "https://github.com/DmRafaule/base-to-base-number"

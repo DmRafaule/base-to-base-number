@@ -1,0 +1,5 @@
+__pychache__
+.pytest_cache
+/venv
+/dist/*.whl
+/dist/*.tar.gz
