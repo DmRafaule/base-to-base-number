@@ -3,7 +3,7 @@ requires = ["hatchling >= 1.26"]
 build-backend = "hatchling.build"
 [project]
 name = "base_to_base_number"
-version = "0.0.1"
+version = "0.0.3"
 authors = [
   { name="Tima Chuduk", email="tima-chuduk@timthewebmaster.com" },
 ]

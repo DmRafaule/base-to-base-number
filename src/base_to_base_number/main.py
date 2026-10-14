@@ -18,8 +18,9 @@ def get_base_regex(base: int) -> str:
         char_class = f"0-9A-{max_letter}a-{max_letter.lower()}"
 
     sign = r"[+-]?"
+    fraction_delimeter = "[.,]"
     body = f"[{char_class}]+"
-    fraction = f"(?:\\.[{char_class}]+)?"
+    fraction = f"(?:{fraction_delimeter}[{char_class}]+)?"
 
     return f"^{sign}{body}{fraction}$"
 
